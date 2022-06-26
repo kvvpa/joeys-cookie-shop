@@ -26,6 +26,15 @@ let result = confirm("Is Joey really really cool?");
 
 if (result === true) {
   alert("Thank you");
+  document.write(" You're also very very cool.")
 } else {
   alert("Rude.");
+  document.write(" You're rude.")
 }
+
+// let backgroundColor = '';
+
+// document.getElementById
+
+// backgroundColorprompt("What's your favorite color?");
+
