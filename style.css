@@ -55,6 +55,10 @@ article {
     font-style: italic;
 }
 
+#colorChange {
+    color: black;
+}
+
 #bigImage {
     width: 960px;
     height: 640px;
