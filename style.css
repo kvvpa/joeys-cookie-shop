@@ -50,9 +50,12 @@ main {
     margin: 30px auto;
 }
 
-article {
-    font-size: 18px;
+article h2 {
     font-style: italic;
+}
+
+article p {
+    font-size: 18px;
 }
 
 #colorChange {
@@ -80,6 +83,10 @@ article {
     display: inline-block;
 }
 
+#subImages img {
+    box-shadow: 1px 1px 1px coral;
+}
+
 #subImages p {
     margin-top: 5px;
 }
@@ -96,4 +103,20 @@ footer {
 
 footer p {
     padding-top: 43px;
+}
+
+.red {
+    background-color: coral;
+}
+
+.blue {
+    background-color: cyan;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.orange {
+    background-color: orange;
 }

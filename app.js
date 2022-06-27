@@ -9,8 +9,6 @@
 let userName = prompt("What is your name?");
 let time = prompt("What hour is it? (0-24)?");
 let message = "";
-let isCool = '';
-// let favoriteColor = '';
 
 if (time <= 11) {
   message = "Good Morning, ";
@@ -24,6 +22,7 @@ if (time <= 11) {
 
 document.write(message + userName + "!");
 
+let isCool = '';
 isCool = confirm("Is Joey really really cool?");
 
 if (isCool === true) {
@@ -34,5 +33,6 @@ if (isCool === true) {
   document.write(" You're rude.")
 }
 
-// favoriteColor = prompt('What is your favorite color?');
-// document.getElementById('colorChange').style.color = `${document.getElementById()}`
+let body = document.getElementById('body');
+let color = prompt('Pick a color: orange, red, blue, or yellow');
+body.classList.add(color);
