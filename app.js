@@ -37,7 +37,7 @@ if (isCool === true) {
   // alert("Thank you!");
 message = " You're also really really cool.";
 } else {
-  // alert("Rude.");
+  alert("Rude.");
   message = " You're rude.";
 }
 return message;
